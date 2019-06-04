@@ -1,0 +1,39 @@
+.sideBar {
+  a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    display: block;
+    padding: 0 30px;
+    &:hover {
+      opacity: 0.4;
+    }
+    span {
+      margin-left: 10px;
+    }
+    &.active {
+      border-left: 4px solid #5d72e5;
+      padding: 0 26px;
+      opacity: 1;
+    }
+  }
+
+  .sideBar__user {
+    padding: 40px 0 10px;
+  }
+  .sideBar__menu {
+    li {
+      margin: 15px 0;
+    }
+    a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 20px;
+      display: block;
+      padding: 0 30px;
+      &.active {
+        padding: 0 26px;
+      }
+    }
+  }
+}

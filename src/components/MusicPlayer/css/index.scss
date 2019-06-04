@@ -1,0 +1,57 @@
+.musicPlayer {
+  display: flex;
+  & > div {
+    flex-grow: 1;
+    width: 33%;
+    height: 100px;
+    color: #fff;
+  }
+
+  .musicPlayer__disc {
+    display: flex;
+    align-items: center;
+  }
+
+  .musicPlayer__disc-img,
+  .musicPlayer__disc-data {
+    padding-left: 8px;
+  }
+
+  .musicPlayer__disc-artist {
+    margin-top: 8px;
+    color: #969696;
+  }
+
+  .musicPlayer__disc img {
+    max-width: 60px;
+  }
+
+  .musicPlayer__player {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    button {
+      background: none;
+      border: 0;
+      font-size: 20px;
+      margin-bottom: 10px;
+      cursor: pointer;
+    }
+
+    .musicPlayer__player--time {
+      margin-left: 10px;
+    }
+  }
+
+  .musicPlayer__volume {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+    .musicPlayer__volume--icon {
+      margin-right: 10px;
+    }
+  }
+}

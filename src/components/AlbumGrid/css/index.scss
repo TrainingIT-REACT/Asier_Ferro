@@ -1,0 +1,28 @@
+.albumsPage__container {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+}
+
+.albumsPage__item {
+  flex: auto;
+  height: 300px;
+  max-width: 240px;
+  margin: 0 20px 20px 0;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.6;
+  }
+  img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .albumsPage__item--artist,
+  .albumsPage__item--name {
+    display: block;
+    margin-bottom: 5px;
+  }
+  .albumsPage__item--artist {
+    color: #969696;
+  }
+}

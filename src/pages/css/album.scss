@@ -1,0 +1,26 @@
+.albumPage {
+  .albumPage__list--item {
+    border-bottom: 0.5px solid #4e4e4e;
+    color: #fff;
+    padding: 15px 0;
+    cursor: pointer;
+    display: flex;
+  }
+  .albumPage__list--button {
+    opacity: 0.2;
+    margin-right: 15px;
+    &:hover {
+      opacity: 1;
+    }
+  }
+  .albumPage__list--active {
+    color: #5d72e5;
+    .albumPage__list--button {
+      opacity: 1;
+    }
+  }
+
+  .albumPage__list--time {
+    margin-left: auto;
+  }
+}

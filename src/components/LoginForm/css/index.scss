@@ -1,0 +1,20 @@
+.loginForm {
+  flex: 1 1 auto;
+  padding: 1.25rem;
+  border: none;
+  margin-bottom: 30px;
+  background-color: #fff;
+  text-align: center;
+  input {
+    width: 90%;
+    height: 3rem;
+    font-size: 1rem;
+    font-weight: 400;
+    padding-left: 10px;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    margin-bottom: 15px;
+  }
+}

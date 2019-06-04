@@ -1,0 +1,17 @@
+.loginPage {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 500px;
+  height: 100vh;
+  margin-top: 20vh;
+  animation: slideDownAnimation 2s;
+}
+
+@keyframes slideDownAnimation {
+  0% {
+    margin-top: 0;
+  }
+  100% {
+    margin-top: 20vh;
+  }
+}
